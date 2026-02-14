@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Deployed automatically via GitHub Actions ✅');
+  res.end('Deployed automatically via GitHub Actions Hello ✅');
 
 });
 
