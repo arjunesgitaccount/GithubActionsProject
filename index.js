@@ -1,7 +1,8 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Hello from Ubuntu EC2 🚀');
+  res.end('Deployed automatically via GitHub Actions ✅');
+
 });
 
 server.listen(3000, () => {
